@@ -1,0 +1,61 @@
+.logo{
+    position: fixed;
+}
+.heading{
+    margin-left: 30%;
+}
+
+.main{
+    /* margin-left: 10%; */
+    margin-top: 5%;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+    
+}
+.nav li{
+    list-style: none;
+ 
+}
+.nav li a{
+    color: rgb(17, 202, 202);
+    font-weight: bolder;
+    
+    
+}
+
+.gradiant{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    padding: 2px 3px 2px 3px;
+    background:linear-gradient(blue,aqua);
+ 
+}
+.gradiant li{
+    display: inline;
+    list-style-position: inside;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news,.find,.tips{
+    background:linear-gradient(rgb(161, 28, 139),rgb(146, 94, 94));
+    margin-top: 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+
+}
+
+.news h1{
+
+}
+
+.find{
+padding-left: 20px;
+}
